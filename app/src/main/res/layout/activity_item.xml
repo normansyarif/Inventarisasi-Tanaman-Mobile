@@ -5,12 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activities.HomeActivity">
+    tools:context=".activities.ItemActivity">
 
-    <Button
-        android:id="@+id/scan_btn"
+    <TextView
+        android:id="@+id/loc_name_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="scanButtonClicked"
-        android:text="Scan" />
+        android:text="TextView" />
 </LinearLayout>
