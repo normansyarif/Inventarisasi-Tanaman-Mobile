@@ -12,10 +12,10 @@ import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
 import id.ac.unja.si.siitscanner.R;
+import id.ac.unja.si.siitscanner.common.QRCode;
 import id.ac.unja.si.siitscanner.common.ZXingOrientation;
 
 public class HomeActivity extends AppCompatActivity {
-    final Activity activity = this;
     TextView welcomeText;
     TextView instructionText;
     Typeface helvetica;
@@ -34,14 +34,8 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void scanButtonClicked(View v) {
-        IntentIntegrator integrator = new IntentIntegrator(activity);
-        integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES);
-        integrator.setPrompt("Scan QR code yang ada pada tanaman");
-        integrator.setCameraId(0);
-        integrator.setBeepEnabled(false);
-        integrator.setBarcodeImageEnabled(false);
-        integrator.setCaptureActivity(ZXingOrientation.class);
-        integrator.initiateScan();
+        QRCode qrCode = new QRCode(this);
+        qrCode.integrator();
     }
 
     @Override
