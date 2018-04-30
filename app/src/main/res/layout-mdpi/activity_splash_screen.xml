@@ -18,7 +18,7 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
-            android:layout_height="117dp"
+            android:layout_height="164dp"
             android:layout_marginBottom="30dp"
             app:srcCompat="@drawable/logo" />
 
@@ -30,7 +30,7 @@
             android:text="SISTEM INFORMASI"
             android:textAlignment="center"
             android:textColor="@color/zxing_status_text"
-            android:textSize="20sp" />
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -39,6 +39,6 @@
             android:text="INVENTARISASI TANAMAN"
             android:textAlignment="center"
             android:textColor="@color/zxing_status_text"
-            android:textSize="20sp" />
+            android:textSize="24sp" />
     </LinearLayout>
 </LinearLayout>

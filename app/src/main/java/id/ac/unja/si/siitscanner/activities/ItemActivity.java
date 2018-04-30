@@ -15,6 +15,8 @@ import com.google.zxing.integration.android.IntentResult;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.Objects;
+
 import id.ac.unja.si.siitscanner.R;
 import id.ac.unja.si.siitscanner.common.QRCode;
 import id.ac.unja.si.siitscanner.common.Url;
