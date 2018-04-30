@@ -2,23 +2,35 @@ package id.ac.unja.si.siitscanner.activities;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
+import id.ac.unja.si.siitscanner.R;
 import id.ac.unja.si.siitscanner.common.ZXingOrientation;
 
 public class HomeActivity extends AppCompatActivity {
     final Activity activity = this;
+    TextView welcomeText;
+    TextView instructionText;
+    Typeface helvetica;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(id.ac.unja.si.siitscanner.R.layout.activity_home);
+        welcomeText = findViewById(R.id.welcomeText);
+        instructionText = findViewById(R.id.instructionText);
+
+        helvetica = Typeface.createFromAsset(getAssets(), "fonts/helvetica.ttf");
+
+        welcomeText.setTypeface(helvetica);
+        instructionText.setTypeface(helvetica);
     }
 
     public void scanButtonClicked(View v) {
