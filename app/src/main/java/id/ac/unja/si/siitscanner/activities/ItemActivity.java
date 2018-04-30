@@ -62,7 +62,9 @@ public class ItemActivity extends AppCompatActivity {
     }
 
     public void OnGoToWebClicked(View v) {
-        Toast.makeText(this, link, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(ItemActivity.this, WebViewActivity.class);
+        intent.putExtra("link", link);
+        startActivity(intent);
     }
 
     private void showData(String jsonData) {
