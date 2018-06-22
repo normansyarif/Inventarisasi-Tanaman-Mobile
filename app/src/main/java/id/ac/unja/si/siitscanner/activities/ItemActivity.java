@@ -7,15 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.util.Objects;
 
 import id.ac.unja.si.siitscanner.R;
 import id.ac.unja.si.siitscanner.common.QRCode;
@@ -89,7 +86,7 @@ public class ItemActivity extends AppCompatActivity {
         loc_name_text.setText(loc_name);
         sci_name_text.setText(sci_name);
         family_text.setText(family);
-        link = Url.ITEM_URL + id;
+        link = Url.getUrl() + id;
     }
 
     public void scanButtonClicked(View v) {

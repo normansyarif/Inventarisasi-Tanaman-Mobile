@@ -1,5 +1,10 @@
 package id.ac.unja.si.siitscanner.common;
 
 public class Url {
-    public static final String ITEM_URL = "http://www.example.com/species/";
+    private static String domain = "http://johnsmith393939.000webhostapp.com/";
+    private static String speciesPath = "/species";
+
+    public static String getUrl() {
+        return domain + speciesPath + "/";
+    }
 }

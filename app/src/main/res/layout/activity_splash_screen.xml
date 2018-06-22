@@ -29,7 +29,7 @@
             android:layout_marginBottom="5dp"
             android:text="SISTEM INFORMASI"
             android:textAlignment="center"
-            android:textColor="@color/zxing_status_text"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:text="INVENTARISASI TANAMAN"
             android:textAlignment="center"
-            android:textColor="@color/zxing_status_text"
+            android:textColor="@android:color/black"
             android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>
