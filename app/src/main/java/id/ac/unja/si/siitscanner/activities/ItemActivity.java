@@ -66,7 +66,7 @@ public class ItemActivity extends AppCompatActivity {
 
     private void showData(String jsonData) {
 
-        String id = null;
+        int id = 0;
         String loc_name = null;
         String sci_name = null;
         String family = null;
@@ -74,10 +74,10 @@ public class ItemActivity extends AppCompatActivity {
         try {
             JSONObject jObj = new JSONObject(jsonData);
             JSONObject itemObj = jObj.getJSONObject("item");
-            id = itemObj.getString("id");
-            loc_name = itemObj.getString("loc_name");
-            sci_name = itemObj.getString("sci_name");
-            family = itemObj.getString("family");
+            id = itemObj.getInt("id");
+            loc_name = itemObj.getString("nama_lokal");
+            sci_name = itemObj.getString("spesies");
+            family = itemObj.getString("famili");
 
         } catch (JSONException e) {
             e.printStackTrace();
