@@ -5,13 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+<<<<<<< HEAD
     android:padding="15dp"
+=======
+    android:padding="24dp"
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
     tools:context=".activities.ItemActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginBottom="5dp"
+=======
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
         android:orientation="vertical">
 
         <TextView
@@ -22,7 +31,11 @@
             android:paddingRight="5dp"
             android:text="Nama Lokal"
             android:textColor="#545454"
+<<<<<<< HEAD
             android:textSize="12sp" />
+=======
+            android:textSize="13sp" />
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 
         <View
             android:layout_width="match_parent"
@@ -39,14 +52,22 @@
             android:paddingRight="5dp"
             android:text="Local Name"
             android:textColor="@android:color/black"
+<<<<<<< HEAD
             android:textSize="17sp" />
+=======
+            android:textSize="20sp" />
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginBottom="5dp"
+=======
+        android:layout_marginBottom="30dp"
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
         android:orientation="vertical">
 
         <TextView
@@ -57,7 +78,11 @@
             android:paddingRight="5dp"
             android:text="Nama Ilmiah"
             android:textColor="#545454"
+<<<<<<< HEAD
             android:textSize="12sp" />
+=======
+            android:textSize="13sp" />
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 
         <View
             android:layout_width="match_parent"
@@ -74,7 +99,11 @@
             android:paddingRight="5dp"
             android:text="Scientific Name"
             android:textColor="@android:color/black"
+<<<<<<< HEAD
             android:textSize="17sp"
+=======
+            android:textSize="20sp"
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
             android:textStyle="italic" />
 
     </LinearLayout>
@@ -82,7 +111,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginBottom="5dp"
+=======
+        android:layout_marginBottom="40dp"
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
         android:orientation="vertical">
 
         <TextView
@@ -93,7 +126,11 @@
             android:paddingRight="5dp"
             android:text="Family"
             android:textColor="#545454"
+<<<<<<< HEAD
             android:textSize="12sp" />
+=======
+            android:textSize="13sp" />
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 
         <View
             android:layout_width="match_parent"
@@ -110,6 +147,7 @@
             android:paddingRight="5dp"
             android:text="Family"
             android:textColor="@android:color/black"
+<<<<<<< HEAD
             android:textSize="17sp" />
 
     </LinearLayout>
@@ -146,13 +184,20 @@
             android:text="Umur"
             android:textColor="@android:color/black"
             android:textSize="17sp" />
+=======
+            android:textSize="20sp" />
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 
     </LinearLayout>
 
     <Button
         android:id="@+id/go_to_web_button"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="34dp"
+=======
+        android:layout_height="wrap_content"
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
         android:background="@drawable/button_background_red"
         android:clickable="true"
         android:focusable="true"
@@ -160,13 +205,22 @@
         android:onClick="OnGoToWebClicked"
         android:text="Detail Tanaman"
         android:textColor="#fff"
+<<<<<<< HEAD
         android:textSize="12sp" />
+=======
+        android:textSize="13sp" />
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 
     <Button
         android:id="@+id/rescan_button"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="34dp"
         android:layout_marginTop="5dp"
+=======
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
         android:background="@drawable/button_background_green"
         android:clickable="true"
         android:focusable="true"
@@ -174,7 +228,11 @@
         android:onClick="scanButtonClicked"
         android:text="Scan kembali"
         android:textColor="#fff"
+<<<<<<< HEAD
         android:textSize="12sp" />
+=======
+        android:textSize="13sp" />
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 
 
 </LinearLayout>

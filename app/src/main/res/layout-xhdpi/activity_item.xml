@@ -11,7 +11,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginBottom="25dp"
+=======
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
         android:orientation="vertical">
 
         <TextView
@@ -45,7 +50,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginBottom="25dp"
+=======
+        android:layout_marginBottom="40dp"
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
         android:orientation="vertical">
 
         <TextView
@@ -80,7 +89,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginBottom="25dp"
+=======
+        android:layout_marginBottom="60dp"
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
         android:orientation="vertical">
 
         <TextView
@@ -111,6 +124,7 @@
 
     </LinearLayout>
 
+<<<<<<< HEAD
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -145,6 +159,8 @@
 
     </LinearLayout>
 
+=======
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
     <Button
         android:id="@+id/go_to_web_button"
         android:layout_width="match_parent"

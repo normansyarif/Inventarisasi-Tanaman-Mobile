@@ -7,25 +7,34 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+<<<<<<< HEAD
 import android.widget.Toast;
+=======
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
+<<<<<<< HEAD
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
+=======
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 import id.ac.unja.si.siitscanner.R;
 import id.ac.unja.si.siitscanner.common.QRCode;
 import id.ac.unja.si.siitscanner.common.ZXingOrientation;
 
+<<<<<<< HEAD
 import static java.util.Calendar.DATE;
 import static java.util.Calendar.MONTH;
 import static java.util.Calendar.YEAR;
 
+=======
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 public class HomeActivity extends AppCompatActivity {
     TextView welcomeText;
     TextView instructionText;
@@ -42,7 +51,10 @@ public class HomeActivity extends AppCompatActivity {
 
         welcomeText.setTypeface(helvetica);
         instructionText.setTypeface(helvetica);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
     }
 
     public void scanButtonClicked(View v) {
@@ -63,5 +75,8 @@ public class HomeActivity extends AppCompatActivity {
             super.onActivityResult(requestCode, resultCode, data);
         }
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 584291d28920092630ef15ee14d586fba8e541b2
 }
